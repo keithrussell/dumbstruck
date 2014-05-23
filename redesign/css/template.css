@@ -1,0 +1,107 @@
+body {
+    background-color: #405966;
+    color: #405966;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+h2 {
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 25px 0 15px;
+}
+p {
+    line-height: 16px;
+    margin-bottom: 15px;
+}
+a {
+    text-decoration: none;
+}
+b {
+    font-weight: bold;
+}
+i {
+    font-style: italic;
+}
+u {
+    text-decoration: underline;
+}
+nav {
+    background-color: #7B7496;
+}
+nav .logo {
+    display: block;
+    float: left;
+}
+nav .logo h1 {
+    background-image: url(../assets/logo.png);
+    background-size: 216px 31px;
+    height: 31px;
+    width: 216px;
+}
+nav .logo h1 span {
+    display: none;
+}
+.content {
+    background-color: #E1E9F0;
+}
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 45px 30px;
+}
+footer {
+    color: #FFF;
+    font-size: 12px;
+    line-height: 33px;
+}
+footer a {
+    color: #FFF;
+    font-weight: bold;
+}
+footer ul {
+    float: left;
+}
+footer ul li {
+    float: left;
+    margin-right: 25px;
+}
+footer .social li a {
+    background-size: 33px;
+    display: block;
+    height: 33px;
+    width: 33px;
+}
+footer .social li a span {
+    display: none;
+}
+footer .social li.facebook a {
+    background-image: url(../assets/facebook.png);
+}
+footer .social li.twitter a {
+    background-image: url(../assets/twitter.png);
+}
+footer .copyright {
+    float: right;
+}
